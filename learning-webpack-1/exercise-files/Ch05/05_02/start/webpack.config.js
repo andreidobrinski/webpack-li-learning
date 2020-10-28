@@ -6,6 +6,7 @@ module.exports = {
 		path: 'build',
 		filename: 'bundle.js'
 	},
+	// webpack dev server
 	devServer: {
 		inline: true,
 		contentBase: './build',

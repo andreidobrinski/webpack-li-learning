@@ -51,3 +51,9 @@ Code Splitting
 - use webpack for shared code or vendor code
 - creates a common file for modules that share libraries or code
   - can be preloaded and cached
+
+Webpack dev server
+
+- uses node
+- webpack-dev-middleware bundle
+- uses socker.io to listen for changes
