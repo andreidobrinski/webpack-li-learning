@@ -65,3 +65,5 @@ Babel loaders
 - `babel-loader`, `babel-core`, `babel-present-env`
 - also `babel-preset-react`
 - check that .babelrc presets match the presets in webpack config babel loader
+
+Passing `--progress` to webpack call shows progress of build
