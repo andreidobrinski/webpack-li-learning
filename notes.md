@@ -24,3 +24,12 @@ Webpack...
 - avoid code re-downloading
 - transpiles SASS or LESS into CSS
 - transpiles React and ES6 into vanilla JS
+
+Webpack loaders
+
+- perform transformations on files
+- help load files and images
+- used with JS dialects
+  - Babel used to transpile
+- `babel-loader` and `babel-core` used
+- Babel 6: all transformations are opt-in, unlike previous versions of Babel
