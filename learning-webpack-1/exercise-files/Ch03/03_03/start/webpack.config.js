@@ -15,6 +15,11 @@ module.exports = {
 				}
 			},
 			{
+				test: /\.(png|jpg)$/,
+				// if an image is > 20kb, a direct URL is create to the image asset
+				loader: 'url-loader?limit=20000'
+			},
+			{
 				test: /\.scss$/,
 				loader: 'style-loader!css-loader!sass-loader'
 			}

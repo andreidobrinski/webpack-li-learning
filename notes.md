@@ -33,3 +33,10 @@ Webpack loaders
   - Babel used to transpile
 - `babel-loader` and `babel-core` used
 - Babel 6: all transformations are opt-in, unlike previous versions of Babel
+
+Webpack and CSS
+
+- bundles only styles that the app uses
+- import or require styles for use with certain files
+- transforms SASS to CSS
+- put image and url loader above CSS
