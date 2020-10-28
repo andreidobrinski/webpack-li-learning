@@ -1,6 +1,16 @@
+var webpack = require('webpack');
+var path = require('path');
+
+// allow for multiple entry points and bundles
 module.exports = {
-	entry: ,
-	output: ,
+	entry: {
+		about: './dist/about',
+		contact: './dist/contact'
+	},
+	output: {
+		path: path.join(__dirname, 'build'),
+		filename: '[name].bundle.js'
+	},
 	module: {
 		loaders: [
 			{

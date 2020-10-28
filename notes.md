@@ -40,3 +40,14 @@ Webpack and CSS
 - import or require styles for use with certain files
 - transforms SASS to CSS
 - put image and url loader above CSS
+
+Code Splitting
+
+- optimize code performance and dev workflow
+- automate transpiling
+- break code up into different bundles
+- different entry points
+- creates a different bundle for each entry point
+- use webpack for shared code or vendor code
+- creates a common file for modules that share libraries or code
+  - can be preloaded and cached

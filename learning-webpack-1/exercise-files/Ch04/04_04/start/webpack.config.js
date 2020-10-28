@@ -5,7 +5,9 @@ var CommonsChunkPlugin = require('./node_modules/webpack/lib/optimize/CommonsChu
 module.exports = {
 	entry: {
 		about: './dist/about',
-		contact: './dist/contact'
+		contact: './dist/contact',
+		// adjust commons chunk plugin for vendors
+		vendor: ['react', 'react-dom']
 	},
 	output: {
 		path: path.join(__dirname, 'build'),
@@ -32,7 +34,7 @@ module.exports = {
 	 ]
 	},
 	plugins: [
-		new CommonsChunkPlugin('commons', 'commons.bundle.js')
+		new CommonsChunkPlugin('vendor', 'vendor.bundle.js')
 	]
 
 };
