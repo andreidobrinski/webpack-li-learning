@@ -57,3 +57,11 @@ Webpack dev server
 - uses node
 - webpack-dev-middleware bundle
 - uses socker.io to listen for changes
+
+## Webpack 3
+
+Babel loaders
+
+- `babel-loader`, `babel-core`, `babel-present-env`
+- also `babel-preset-react`
+- check that .babelrc presets match the presets in webpack config babel loader
