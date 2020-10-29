@@ -80,3 +80,7 @@ What's new
 - supports WASM
 - need to install webpack and webpack-cli to dev dependencies
 - generates a main.js instead of a bundle.js by default
+
+Babel
+
+- use `babel-loader` and `@babel/core`
