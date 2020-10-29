@@ -67,3 +67,14 @@ Babel loaders
 - check that .babelrc presets match the presets in webpack config babel loader
 
 Passing `--progress` to webpack call shows progress of build
+
+## Webpack 4
+
+What's new
+
+- no support for Node.js 4
+- 98% faster
+- dev and production mode
+  - dev: speed of build is optimized
+  - prod: bundle size is optimized
+- supports WASM
