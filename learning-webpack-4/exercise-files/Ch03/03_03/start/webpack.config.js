@@ -6,6 +6,7 @@ module.exports = {
         filename: "main.js",
         path: path.resolve(__dirname, "dist")
     },
+    // webpack dev server
     devServer: {
         contentBase: path.join(__dirname, "dist"),
         port: 9000
