@@ -78,3 +78,5 @@ What's new
   - dev: speed of build is optimized
   - prod: bundle size is optimized
 - supports WASM
+- need to install webpack and webpack-cli to dev dependencies
+- generates a main.js instead of a bundle.js by default
